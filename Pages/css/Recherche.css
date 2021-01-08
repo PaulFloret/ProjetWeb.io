@@ -1,0 +1,35 @@
+.Res-Recherche
+{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 4em;
+	min-height: 5em;
+	flex-wrap: wrap;
+}
+
+.Res-item
+{
+	display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    min-height: 5em;
+}
+
+article
+{
+	border-top: solid;
+	justify-self: end;
+	width: 90%;
+}
+
+.dispo
+{
+	color: rgb(51 221 39);
+	font-weight: bold;
+}
+
+.n-dispo
+{
+	color: rgb(190 48 0);
+	font-weight: bold;
+}

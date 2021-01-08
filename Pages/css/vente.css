@@ -1,0 +1,125 @@
+.grid
+{
+	min-width: 350px;
+    height: 500px;
+}
+
+.item
+{
+	position: relative;
+	background-size: cover;
+    background-position: center;
+}
+
+.details
+{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.article
+{
+	font-weight: bold;
+}
+
+.price
+{
+	font-size: 2em;
+	margin:0;
+	font-family: 'Pacifico', cursive;
+}
+
+.Best-sellers
+{
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 4em;
+	min-height: 5em;
+	flex-wrap: wrap;
+}
+
+.BS_item
+{
+	min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.Tournedisque
+{
+	background-image: url("../../Image/TournedisqueFace.jpg");
+}
+
+.Ampli
+{
+	background-image: url("../../Image/Ampli.png");
+}
+
+.Nevermind
+{
+	background-image: url("../../Image/Nevermind.jpg");
+}
+
+.ANightAtTheOpera
+{
+	background-image: url("../../Image/ANightAtTheOpera.jpg");
+}
+
+.Enceinte
+{
+	background-image: url("../../Image/Enceinte.jpg");
+}
+
+.Horloge
+{
+	background-image: url("../../Image/Horloge.jpg");
+}
+
+.Stock
+{
+	background-image: url("../../Image/Stock.jpg");
+}
+
+.Lamp
+{
+	background-image: url("../../Image/Lamp.jpg");
+}
+
+.Wine
+{
+	background-image: url("../../Image/Wine.jpg");
+}
+
+.Bag
+{
+	background-image: url("../../Image/Bag.jpg");
+}
+
+.AM
+{
+	background-image: url("../../Image/AM.jpg");
+}
+
+.Comeblack
+{
+	background-image: url("../../Image/Comeblack.jpg");
+}
+
+.ApetiteForDestruction
+{
+	background-image: url("../../Image/ApetiteForDestruction.jpg");
+}
+
+.promo::after
+{
+	content: "Promo";
+	color: rgb(181 45 45);
+}

@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap');
+
+*
+{
+	font-family: 'Xanh Mono', monospace;
+}
+
+header
+{
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	top:0;	
+	right: 0;
+	width: 100vw;
+	height: 8.5em;
+	z-index: 2;
+	display: flex;
+	background-image: url("../../Image/Vinyle1.jpg");
+	background-position-y:50%;
+}
+
+.search-box
+{
+	align-self: flex-end;
+	background-color: rgb(181 45 45);
+	border-radius: 40px;
+	height: 40px;
+	padding: 10px;
+	margin-right: 1em;
+	margin-top: 0.5em;
+	position: relative;
+}
+
+.search-btn
+{
+	width: 1em;
+	float: right;
+	margin-left: 5px;
+}
+
+.header-top
+{
+	display: flex;
+}
+
+nav
+{
+	position: relative;
+	text-align: center;
+	color: white;
+	background-color: rgb(181 45 45);
+	width: 100vw;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+ul li
+{
+	display: inline;
+	color: white;
+}
+
+#page
+{
+	font-family: 'Pacifico', cursive;
+	font-size: 3em;
+	margin: 0;
+	text-shadow: 1px 1px #ffffff ,3px 3px 1em lightblue;
+	text-align: center;
+	width: -webkit-fill-available;
+}
+
+#fondu
+{
+	position: fixed;
+    z-index: 1;
+    top: 16vh;
+    width: 100vw;
+    height: 10vw;
+    background: linear-gradient(white,transparent);
+}
+
+body
+{
+	margin-right: 0;
+	margin-left: 0;
+	margin-top: 35vh;
+	margin-bottom: 13vh;
+	z-index: 1;
+}
+
+a:visited
+{
+	color: rgb(0 0 0);
+}
+
+h1
+{
+	font-size:2em;
+}
+
+footer
+{
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	display: flex;
+	background-color: rgb(181 45 45);
+	justify-content: space-around;
+}
+
+footer *
+{
+	margin: 0.5em;
+}
+
+i
+{
+	color: white;
+	font-size: 1.3em;
+}

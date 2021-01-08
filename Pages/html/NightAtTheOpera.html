@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/vente.css"/>
+		<link rel="stylesheet" href="../css/Item.css">
+		<link rel="stylesheet" href="../css/Recherche.css">
+ 		<title>Accueil</title>
+ 		<script src="https://kit.fontawesome.com/aa7a768708.js" crossorigin="anonymous"></script>
+ 		<link rel="icon"  href="logo.svg">
+	</head>
+
+	<body>
+		<header>
+			<div class="search-box">
+			<form action="Recherche.html" method="post">
+				<input class="search-txt" type="text" name="" placeholder="Rechercher">
+				<a class="search-btn" href="#">
+					<i class="fas fa-search"></i>
+				</a>
+			</form>	
+			</div>
+			<a id="page" href="Index.html">Destination Vinyle</a>
+			<nav>
+				<ul>
+					<i class="fas fa-compact-disc"></i>
+					<li><a href="Index.html">Accueil</a></li>
+					<li><a href="#">Boutique</a></li>
+					<li><a href="#">News</a></li>
+					<i class="fas fa-compact-disc"></i>
+				</ul>
+			</nav>
+		</header>
+		<div id="fondu"></div>
+		<section class="container">
+			<div class="l-side">
+				<img src="../../Image/ANightAtTheOpera.jpg">
+				<h1>A Night At The Opera:</h1>
+				<p>Réédition remasterisée des bandes originales de A Night At The Opera de 1975. Il est aujourd'hui encore considéré comme l'un des plus grands albums de tous les temps. En effet, la qualité exceptionnelle de ses textes et de son interprétation ainsi que des musiques insolites en ont fait l'album les plus cher jamais enregistré à l'époque.</p>
+				<div class="spec">
+					<table>
+						<caption>Caractéristiques Détaillées</caption>
+						<tr>
+							<th>Interprète<!-- Arthouuuuuuuuuur --></th>
+							<th>Date de parution</th>
+							<th>Editeur</th>
+						</tr>
+						<tr>
+							<td>Queen</td>
+							<td>septembre 2015</td>
+							<td>Emi</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="r-side">
+				<h1>21,92€</h1>
+				<p>TVT incluse</p>
+				<p class="n-dispo">Indisponible</p>
+				<form action="#">
+					<label>
+						"Quantité"
+						<input type="number" name="Quantité" min="0" max="10" step="1">
+					</label>
+					<input type="submit" value="Ajouter au panier">
+				</form>
+			</div>
+		</section>
+		<section class="suggest">
+			<h1>Suggestion pour vous:</h1>
+			<a class="item grid Tournedisque" href="NightAtTheOpera.html">
+				<div class="details">
+					<p class="article">Platine Vinyle <br/>Audio-Technica</p>
+					<p class="price">299,00€</p>
+				</div>
+			</a>
+			<a class="item grid Ampli" href="NightAtTheOpera.html">
+				<div class="details">
+					<p class="article">Amplificateur HiFi RS202D<br/>Yamaha</p>
+					<p class="price">249,00€</p>
+				</div>
+			</a>
+			<a class="item grid Enceinte" href="NightAtTheOpera.html">
+				<div class="details">
+					<p class="article">Enceintes Studio 8 (x2)<br/>Jamo</p>	
+					<p class="price">129,99€</p>					
+				</div>
+			</a>
+			<a class="item grid Nevermind" href="NightAtTheOpera.html">
+				<div class="details">
+					<p class="article">Nevermind<br/>Nirvana</p>
+					<p class="price promo">14,50€</p>
+				</div>
+			</a>
+			<a class="item grid ANightAtTheOpera" href="NightAtTheOpera.html">
+				<div class="details">
+					<p class="article">A night at the opera<br/>Queen</p>
+					<p class="price">21,92€</p>
+				</div>
+			</a>
+		</section>
+		<footer>
+			<i class="fas fa-compact-disc"></i>
+			<a href="Nous_connaitre.html">Qui sommes nous ?</a>
+			<a href="DetailsTechniques.html">Détails techniques</a>
+			<i class="fas fa-compact-disc"></i>
+		</footer>
+	</body>

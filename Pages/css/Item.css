@@ -1,0 +1,64 @@
+.container{
+	display: flex;
+	margin-right: 2em;
+	margin-left: 2em;
+}
+
+.l-side img{
+	width: 20em;
+	float: left;
+	margin-right: 1em;
+}
+
+body p{
+	font-weight: bold;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+th,td{
+	border:1px solid black;
+	text-align: center;
+	padding: 5px;
+}
+
+caption{
+	font-weight: bolder;
+	text-decoration: underline;
+	margin-bottom: 0.5em;
+}
+
+.r-side{
+	padding: 1em;
+	margin:1em;
+	width: 20%;
+	background-color: rgb(181 45 45);
+	border-radius: 2em;
+}
+
+.l-side p{
+	text-indent: 2em;
+}
+
+.l-side{
+	border: solid;
+	border-color: rgb(181 45 45);
+}
+
+.suggest{
+	margin-top: 2em;
+	max-height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+}

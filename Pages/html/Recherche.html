@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../css/common.css" />
+		<link rel="stylesheet" href="../css/vente.css"/>
+		<link rel="stylesheet" href="../css/Recherche.css"/>
+ 		<title>Accueil</title>
+ 		<script src="https://kit.fontawesome.com/aa7a768708.js" crossorigin="anonymous"></script>
+ 		<link rel="icon"  href="logo.svg">
+	</head>
+
+	<body>
+		<header>
+			<div class="search-box">
+			<form action="Recherche.html" method="post">
+				<input class="search-txt" type="text" name="" placeholder="Rechercher">
+				<a class="search-btn" href="#">
+					<i class="fas fa-search"></i>
+				</a>
+			</form>	
+			</div>
+			<a id="page" href="Index.html">Destination Vinyle</a>
+			<nav>
+				<ul>
+					<i class="fas fa-compact-disc"></i>
+					<li><a href="Index.html">Accueil</a></li>
+					<li><a href="#">Boutique</a></li>
+					<li><a href="#">News</a></li>
+					<i class="fas fa-compact-disc"></i>
+				</ul>
+			</nav>
+		</header>
+
+		<div id="fondu"></div>
+		<section class="Res-Recherche">
+			<h1>Résultats pour "Disque vinyle" :</h1>
+			<section class="Res-item">
+				<a class="item grid Nevermind" href="NightAtTheOpera.html">
+					<div class="details">
+						<p class="article">Nevermind<br/>Nirvana</p>
+						<p class="price promo">14,50€</p>
+					</div>
+				</a>
+				<article>
+					<h1>Disque vinyle Nevermind</h1>
+					<form action="Panier.html" method="post">
+						<h3>14,50€</h3>
+						<p class="dispo">Disponible</p>
+						<label>
+							"Quantité :"
+							<input type="number" name="quantité" min="0" max="10" step="1">
+						</label>
+						<input type="submit" name="Ajouter au panier">
+					</form>
+				</article>
+				<a class="item grid ANightAtTheOpera" href="NightAtTheOpera.html">
+					<div class="details">
+						<p class="article">A night at the opera<br/>Queen</p>
+						<p class="price">21,92€</p>
+					</div>
+				</a>
+				<article>
+					<h2>Disque vinyle A Night At Ahe Opera</h2>
+					<form action="Panier.html" method="post">
+						<h3>21,92€</h3>
+						<p class="n-dispo">Inisponible</p>
+						<label>
+							"Quantité :"
+							<input type="number" name="quantité" min="0" max="10" step="1">
+						</label>
+						<input type="submit" name="Ajouter au panier">
+					</form>
+				</article>
+				<a class="item grid AM" href="NightAtTheOpera.html">
+					<div class="details">
+						<p class="article">AM<br/>Arctic Monkeys</p>
+						<p class="price">21,99€</p>
+					</div>
+				</a>
+				<article>
+					<h2>Disque vinyle AM</h2>
+					<form action="Panier.html" method="post">
+						<h3>21,99</h3>
+						<p class="dispo">Disponible</p>
+						<label>
+							"Quantité :"
+							<input type="number" name="quantité" min="0" max="10" step="1">
+						</label>
+						<input type="submit" name="Ajouter au panier">
+					</form>
+				</article>
+				<a class="item grid Comeblack" href="NightAtTheOpera.html">
+					<div class="details">
+						<p class="article">Comeblack<br/>Scorpion</p>
+						<p class="price">21,99€</p>
+					</div>
+				</a>
+				<article>
+					<h2>Disque vinyle Comeblack</h2>
+					<form action="Panier.html" method="post">
+						<h3>21,99€</h3>
+						<p class="dispo">Disponible</p>
+						<label>
+							"Quantité :"
+							<input type="number" name="quantité" min="0" max="10" step="1">
+						</label>
+						<input type="submit" name="Ajouter au panier">
+					</form>
+				</article>
+				<a class="item grid ApetiteForDestruction" href="#">
+					<div class="details">
+						<p class="article">Apetite for destruction<br/>Guns N Roses</p>
+						<p class="price">14,64€</p>
+					</div>
+				</a>
+				<article>
+					<h2>Disque vinyle Apetite for destruction</h2>
+					<form action="Panier.html" method="post">
+						<h3>14,64€</h3>
+						<p class="dispo">Disponible</p>
+						<label>
+							"Quantité :"
+							<input type="number" name="quantité" min="0" max="10" step="1">
+						</label>
+						<input type="submit" name="Ajouter au panier">
+					</form>
+				</article>
+			</section>
+		</section>
+		<footer>
+			<i class="fas fa-compact-disc"></i>
+			<a href="Nous_connaitre.html">Qui sommes nous ?</a>
+			<a href="DetailsTechniques.html">Détails techniques</a>
+			<i class="fas fa-compact-disc"></i>
+		</footer>
+	</body>

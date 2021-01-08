@@ -1,0 +1,29 @@
+h1
+{
+	text-align: center;
+	margin-top: 1em;
+}
+
+p
+{
+	text-indent: 2em;
+	margin-left: 1em;
+	margin-right: 1em;
+	font-weight: bold;
+}
+
+a
+{
+	color: black;
+}
+
+.contact
+{
+	text-align: center;
+}
+
+.NP
+{
+	font-style: italic;
+	text-decoration: underline;
+}

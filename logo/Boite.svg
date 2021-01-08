@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="Boite.svg">
+  <defs
+     id="defs2">
+    <rect
+       x="232.83333"
+       y="60.47619"
+       width="0"
+       height="36.285714"
+       id="rect100" />
+    <rect
+       x="137.58333"
+       y="27.970238"
+       width="113.39286"
+       height="29.482143"
+       id="rect94" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="510.25872"
+     inkscape:cy="451.22101"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:lockguides="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="728"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Calque 1"
+     id="layer1">
+    <rect
+       style="fill:#ff0000;stroke-width:0.264583"
+       id="rect90"
+       width="108.58126"
+       height="120.1965"
+       x="34.017857"
+       y="65.767784" />
+    <text
+       xml:space="preserve"
+       id="text92"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect94);fill:#000000;fill-opacity:1;stroke:none;"
+       transform="translate(9.827381,-55.184524)"><tspan
+         x="137.58398"
+         y="37.334443"><tspan
+           style="fill:#ffffff">Destination Vinyle</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       id="text98"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect100);fill:#000000;fill-opacity:1;stroke:none;" />
+  </g>
+</svg>
