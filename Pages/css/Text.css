@@ -6,10 +6,14 @@ h1
 
 p
 {
+	padding: 10px;
 	text-indent: 2em;
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left: 2em;
+	margin-right: 2em;
 	font-weight: bold;
+	border: solid;
+	border-color: rgb(181 45 45);
+	border-radius: 0.5em;
 }
 
 a

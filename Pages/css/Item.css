@@ -2,6 +2,7 @@
 	display: flex;
 	margin-right: 2em;
 	margin-left: 2em;
+	justify-content: space-around;
 }
 
 .l-side img{
@@ -16,6 +17,7 @@ body p{
 
 table{
 	border-collapse: collapse;
+	margin: 2em;
 }
 
 th,td{
@@ -43,8 +45,11 @@ caption{
 }
 
 .l-side{
+	min-width: 40vw;
 	border: solid;
 	border-color: rgb(181 45 45);
+	text-align: center;
+	padding: 2em;
 }
 
 .suggest{
