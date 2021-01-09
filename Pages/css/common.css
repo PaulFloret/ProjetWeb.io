@@ -47,6 +47,9 @@ header
 
 nav
 {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 	position: relative;
 	text-align: center;
 	color: white;
@@ -65,7 +68,7 @@ ul li
 	color: white;
 }
 
-#page
+.page
 {
 	font-family: 'Pacifico', cursive;
 	font-size: 3em;
@@ -75,7 +78,7 @@ ul li
 	width: -webkit-fill-available;
 }
 
-#fondu
+.fondu
 {
 	position: fixed;
     z-index: 1;
